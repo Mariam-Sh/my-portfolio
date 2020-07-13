@@ -10,7 +10,6 @@ const About = () => {
                 </Col>
             </Row>
         </Container>
-
     );
 }
 export default About

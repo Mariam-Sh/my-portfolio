@@ -36,7 +36,6 @@ h3:before{
 }
 .skills-img {
     background-image: url(../src/images/skill.jpg);
-    opacity: 0.7;
     background-attachment: fixed;
     height: auto;
 }
@@ -48,7 +47,7 @@ h3:before{
 .footer-img {
     background-image: url(../src/images/footer.jpg);
     height: 60vh;
-    opacity: 0.8;
+    opacity: 0.9;
     background-attachment: fixed;
 }
 .heart-icon,
@@ -65,11 +64,15 @@ h3:before{
     top: 50%;
     right: 36%;
 }
-.skill-text {
+.skill-text,
+.edu-text {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
     color: #000;
+}
+.edu-text {
+    text-align: start;
 }
 @keyframes beat {
     to { transform: scale(1.4); }
@@ -85,6 +88,15 @@ h3:before{
     100% {font-size:40px;opacity:1;}
 }
 
+@media (max-width: 1024px) {
+    .header-img > h2,h3 {
+        top: 28%;
+        font-size: 17px;
+    }
+    h3:before {
+        font-size: 20px !important;
+    }
+}
 @media (max-width: 920px) {
     .header-img > h2,h3 {
         top: 20%;
@@ -92,5 +104,12 @@ h3:before{
     }
     h3:before {
         font-size: 15px !important;
+    }
+}
+
+@media (max-width : 742px) {
+    .heart-icon,
+    .thumb-icon {
+        right: 30%;
     }
 }

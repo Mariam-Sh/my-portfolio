@@ -10,7 +10,7 @@ const Skills = () => {
             <Container>
                 <Row className="justify-content-end">
                     <Col sm={12} md={4}>
-                        <ListGroup className="list-item ml-5 mt-5 pb-5">
+                        <ListGroup className="list-item ml-5 mt-4 pb-5">
                             <ListGroup.Item className="w-80  skill-text">HTML5</ListGroup.Item>
                             <ListGroup.Item className="w-80  skill-text">CSS3</ListGroup.Item>
                             <ListGroup.Item className="w-80  skill-text">Bootstrap 4</ListGroup.Item>
@@ -20,17 +20,17 @@ const Skills = () => {
                             <ListGroup.Item className="w-80  skill-text">ReactJS</ListGroup.Item>
                         </ListGroup>
                     </Col>
-                    <Col sm={12} md={ 4} className="mt-5">
+                    <Col sm={12} md={ 4} className="mt-3">
                     <div>
                         <h2 className="text-light">Education</h2>
-                        <h4 className="text-light">Armenian National Polytechnic University</h4>
-                        <p className="text-light">Bachelor's degree, Enterprises economist and manager</p>
-                        <p>2015-2019</p>
+                        <h4 className="edu-text">Armenian National Polytechnic University</h4>
+                        <p className="text-seconsary">Bachelor's degree, Enterprises economist and manager</p>
+                        <p className="text-seconsary">2015-2019</p>
                     </div>
                     <div>
-                        <h4 className="text-light">American University of Armenia</h4>
-                        <p className="text-light">General English courses</p>
-                        <p>02.2019-09.2019</p>
+                        <h4 className="edu-text">American University of Armenia</h4>
+                        <p className="text-seconsary">General English courses</p>
+                        <p classname="text-seconsary">02.2019-09.2019</p>
                     </div>
                     </Col>
                 </Row>
